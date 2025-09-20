@@ -1,5 +1,3 @@
-package innoshriPVTLTD;
-
 public class FirstnonRepeting {
 
 	public static void main(String[] args) {
@@ -15,14 +13,15 @@ public class FirstnonRepeting {
 			}
 			if(count==1) {
 				res=ch;
-//				break;
+				break;
 			}
 		}
 		if(res==0) {
-			System.out.println(res);
+			System.out.println("First Non-Repating Character In String : "+res);
 		}else {
-			System.out.println(res);
+			System.out.println("No Any Character Repeated In String");
 		}
 	}
 
 }
+
